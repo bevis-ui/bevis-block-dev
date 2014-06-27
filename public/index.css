@@ -166,7 +166,7 @@ body, html {
 
 #bevis-block-dev .__block-holder {
     position: absolute;
-    max-width: 80%;
+    width: 80%;
 }
 
 #bevis-block-dev section.__design-holder {
