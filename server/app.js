@@ -20,5 +20,7 @@ module.exports = function(options) {
         });
     });
 
-    app.listen(3000);
+    app.listen(options.port);
+
+    console.log('App was started at 0.0.0.0:' + options.port)
 };

@@ -15,11 +15,10 @@ while (inputArguments.length > 0) {
         case '--css':
             options.css = argVal;
             break;
-        case '-bt':
-        case '--bt':
-            options.bt = argVal;
+        case '-p':
+        case '--port':
+            options.port = parseInt(argVal);
             break;
-
     }
 }
 
