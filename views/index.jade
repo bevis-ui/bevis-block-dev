@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title BEViS block development toolkit
+    link(rel="stylesheet" type="text/css" href="/_bevis-block-dev/index.css")
+    link(rel="stylesheet" type="text/css" href=css id="__project-stylesheet")
+  body#bevis-block-dev
+    .__layout
+      aside.__blocks
+        .__panel-header Blocks
+        .__block-list
+      aside.__views
+        .__panel-header Views
+        .__view-list
+      section.__content
+          .__block-holder
+      section.__design-holder
+          iframe.__design
+    aside.__properties
+      .__btjson-panel
+        .__panel-header BTJSON
+        textarea.__btjson
+      .__js-panel
+        .__panel-header JavaScript
+        textarea.__js
+      .__opt-panel
+        .__panel-header Options
+        dl.__field
+          label
+            dt Design
+            dd
+              input.__src
+        dl.__field
+          label
+            dt Background
+            dd
+              input.__bg
+  script(type="text/javascript", src="/_bevis-block-dev/y-ua.js")
+  script(type="text/javascript", src=javascript id="__project-javascript")
+  script(type="text/javascript", src="/_bevis-block-dev/index.js")

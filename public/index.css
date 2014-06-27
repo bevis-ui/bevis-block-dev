@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+#bevis-block-dev .__panel-header {
+    padding: 5px 15px;
+    background: rgb(82, 96, 113);
+    color: rgb(192, 199, 199);
+    border-top: rgb(104, 115, 132) 1px solid;
+    border-bottom: rgb(63, 75, 93) 1px solid;
+    font-family: "Lucida Grande", serif;
+    font-size: 12px;
+}
+
+#bevis-block-dev .__block-list a,
+#bevis-block-dev .__block-list a:hover,
+#bevis-block-dev .__block-list a:visited,
+#bevis-block-dev .__block-list a:active,
+#bevis-block-dev .__view-list a,
+#bevis-block-dev .__view-list a:hover,
+#bevis-block-dev .__view-list a:visited,
+#bevis-block-dev .__view-list a:active {
+    display: block;
+    padding: 5px 15px;
+    color: rgb(192, 199, 199);
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Lucida Grande", serif;
+    font-size: 12px;
+}
+
+#bevis-block-dev .__block-list a.__active,
+#bevis-block-dev .__view-list a.__active {
+    background: rgb(16, 55, 80);
+}
+
+#bevis-block-dev .__layout {
+    height: 80%;
+}
+
+#bevis-block-dev aside.__blocks,
+#bevis-block-dev aside.__views {
+    background-color: rgb(77, 80, 83);
+    height: 100%;
+    float: left;
+    width: 15%;
+    overflow: auto;
+    border-right: 1px rgb(52, 54, 56) solid;
+    box-sizing: border-box;
+}
+#bevis-block-dev aside.__views {
+    width: 10%;
+}
+#bevis-block-dev aside.__properties {
+    height: 20%;
+    position: relative;
+}
+
+#bevis-block-dev .__btjson-panel,
+#bevis-block-dev .__js-panel,
+#bevis-block-dev .__opt-panel {
+    height: 100%;
+    width: 40%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+#bevis-block-dev .__js-panel,
+#bevis-block-dev .__opt-panel {
+    border-left: 1px rgb(52, 54, 56) solid;
+}
+
+#bevis-block-dev .__opt-panel {
+    background-color: rgb(77, 80, 83);
+    width: 20%;
+}
+
+#bevis-block-dev .__field {
+    padding: 0 10px;
+}
+#bevis-block-dev .__field label {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bevis-block-dev .__field dt, #bevis-block-dev .__field dd {margin: 0; padding: 0;}
+
+#bevis-block-dev .__field dt {
+    padding-right: 10px;
+    color: rgb(192, 199, 199);
+    font-family: "Lucida Grande", serif;
+    font-size: 12px;
+    float: left;
+    margin-top: 3px;
+}
+
+#bevis-block-dev .__field dd {
+    overflow: hidden;
+}
+
+#bevis-block-dev .__field dd input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background: #2b2b2b;
+    color: #E6E1DC;
+    font-family: Monaco, Courier, monospace;
+    border: none;
+    padding: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+#bevis-block-dev .__btjson,
+#bevis-block-dev .__js {
+    position: absolute;
+    top: 27px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    border: none;
+    background: #2b2b2b;
+    color: #E6E1DC;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Monaco, Courier, monospace;
+}
+
+#bevis-block-dev .__error-message {
+    background-color: rgb(77, 80, 83);
+    font-family: "Lucida Grande", serif;
+}
+
+#bevis-block-dev .__error-message-code {
+    background-color: rgb(77, 80, 83);
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    border-left: 1px rgb(52, 54, 56) solid;
+    border-right: 1px rgb(52, 54, 56) solid;
+    border-bottom: 1px rgb(52, 54, 56) solid;
+    overflow: auto;
+}
+
+#bevis-block-dev .__btjson:focus,
+#bevis-block-dev .__src:focus,
+#bevis-block-dev .__js:focus {
+    outline: none;
+}
+
+#bevis-block-dev section.__content {
+    height: 100%;
+    width: 75%;
+    float: left;
+    position: relative;
+    overflow: auto;
+}
+
+#bevis-block-dev .__block-holder {
+    position: absolute;
+    max-width: 80%;
+}
+
+#bevis-block-dev section.__design-holder {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    border-left: 1px rgb(52, 54, 56) solid;
+    float: left;
+    display: none;
+    position: relative;
+}
+
+#bevis-block-dev .__design {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+#bevis-block-dev.__show-design section.__content {
+    width: 45%;
+}
+
+#bevis-block-dev.__show-design section.__design-holder {
+    display: block;
+}

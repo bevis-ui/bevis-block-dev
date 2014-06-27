@@ -1,0 +1,30 @@
+{
+  "name": "bevis-block-dev",
+  "version": "1.0.0",
+  "description": "BEViS block develoment toolkit",
+  "main": "index.js",
+  "scripts": {
+    "server": "supervisor -w server server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevis-ui/bevis-block-dev.git"
+  },
+  "author": "Marat Dulin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevis-ui/bevis-block-dev/issues"
+  },
+  "homepage": "https://github.com/bevis-ui/bevis-block-dev",
+  "dependencies": {
+    "express": "^4.4.5",
+    "jade": "^1.3.1",
+    "morgan": "^1.1.1"
+  },
+  "bin": {
+    "bevis-block-dev": "bin/bevis-block-dev.js"
+  },
+  "devDependencies": {
+    "supervisor": "^0.6.0"
+  }
+}
