@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var runApp = require('../server/app');
 var inputArguments = process.argv.slice(2);
-var options = {port: 8080};
+var options = {port: 3000};
 
 while (inputArguments.length > 0) {
     var argName = inputArguments.shift();
